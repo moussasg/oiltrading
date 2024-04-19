@@ -315,7 +315,7 @@ const Hero = () => {
                     </li> */}
                     <li>
                       <Link
-                        href="pricing-plan-1"
+                        href="contact"
                         className="bttn bttn--base bttn-sm bttn-pill fw-md flex-shrink-0">
                         {" "}
                         Contact Us{" "}

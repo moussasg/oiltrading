@@ -6,27 +6,27 @@ const About = () => {
   const [ref, inView] = useInView({ triggerOnce: false });
   const [isView, setIsView] = useState(false);
 
-  useEffect(()=>{
+  useEffect(() => {
     if (inView && !isView) {
       const counterElements = document.querySelectorAll(".counter");
       const duration = 2500; // 4 seconds
-    
+
       counterElements.forEach((counterElement, index) => {
-        var targetNumber = counterElement.getAttribute("data-value");
-    
-        const updateCounter = (startTime) => {
+        const targetNumber = parseInt(counterElement.getAttribute("data-value") || "0", 10);
+
+        const updateCounter = (startTime: number) => {
           const currentTime = Date.now();
           const elapsedTime = currentTime - startTime;
           const progress = Math.min(elapsedTime / duration, 1);
           const currentValue = Math.floor(progress * targetNumber);
-    
-          counterElement.textContent = currentValue;
-    
+
+          counterElement.textContent = currentValue.toString();
+
           if (progress < 1) {
             requestAnimationFrame(() => updateCounter(startTime));
           }
         };
-    
+
         // Start the counting animation for each counter
         setTimeout(() => {
           const startTime = Date.now();
@@ -36,7 +36,7 @@ const About = () => {
 
       setIsView(true);
     }
-  }, [inView])
+  }, [inView, isView]);
 
   return (
     <div className="section">
