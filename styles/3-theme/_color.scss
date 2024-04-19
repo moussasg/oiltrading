@@ -1,0 +1,65 @@
+.clr-base {
+    color: #12743b;
+}
+
+.clr-accent {
+    color: #93813c;
+}
+
+.clr-neutral {
+    color: hsl(var(--neutral));
+}
+
+.clr-white {
+    color: hsl(var(--white));
+}
+
+.clr-light {
+    color: hsl(var(--light));
+}
+
+.clr-heading {
+    color: #1C1C1C;
+}
+
+.clr-text {
+    color: hsl(var(--text));
+}
+
+.clr-dark {
+    color: hsl(var(--dark));
+}
+.accent-text-clr {
+    color: hsl(var(--accent-text-clr));
+}
+
+// Hover State
+.\:clr-base {
+    &:hover {
+        color: #064a22;
+    }
+}
+
+.\:clr-heading {
+    &:hover {
+        color: #064a22;
+    }
+}
+
+.\:clr-accent {
+    &:hover {
+        color: hsl(var(--accent));
+    }
+}
+
+.\:clr-accent-dark {
+    &:hover {
+        color: hsl(var(--accent-dark));
+    }
+}
+
+.\:clr-light {
+    &:hover {
+        color: hsl(var(--light));
+    }
+}

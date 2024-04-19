@@ -1,0 +1,17 @@
+.logo {
+    max-width: 13rem;
+    display: flex;
+    height: 7.5rem;
+    object-fit: contain;
+    align-items: center;
+    flex: initial;
+    flex-direction: row;
+
+    &__light {
+        display: none;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
