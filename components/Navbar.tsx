@@ -244,7 +244,7 @@ const Navbar = ({rtlurl}) => {
                     </li>
                     <li>
                       <Link
-                        href="/news"
+                        href="/news" //s
                         className="primary-menu__link">
                         {" "}
                         News{" "}
