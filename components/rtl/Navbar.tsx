@@ -76,7 +76,7 @@ const Navbar = ({ltrurl}) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="t-link social-icon social-icon--xs clr-heading :clr-base lg-text">
+                    <Link href="https://www.instagram.com/thoiltrading/?hl=en" target="_blank" className="t-link social-icon social-icon--xs clr-heading :clr-base lg-text">
                       <FaInstagram />
                     </Link>
                   </li>

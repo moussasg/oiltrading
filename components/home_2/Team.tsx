@@ -64,7 +64,7 @@ const Team = () => {
                     </li>
                     <li>
                       <Link
-                        href="#"
+                        href="https://www.instagram.com/thoiltrading/?hl=en" target="_blank"
                         className="t-link social-icon social-icon--sm social-icon--neutral-200 social-icon--circle">
                         <FaInstagram />
                       </Link>

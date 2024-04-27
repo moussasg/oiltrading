@@ -14,7 +14,7 @@ const Service = () => {
                     <span className="d-inline-block h5 lh-1 fw-semibold clr-accent overlay-text"> Checkout the latest rate detials  <span className="overlay-text__content-alt">PLATTS</span>
                     </span>
                     <h2 className="mt-5 mb-10 clr-light">Global Commodity Insights Platts </h2>
-                    <Link href="service-1" className="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md"> Learn More <span className="material-symbols-rounded mat-icon fw-300 bttn__icon"> chevron_right </span>
+                    <Link href="product/crude-oil" className="bttn bttn-pill bttn-md bttn--light-accent align-items-center fw-md"> Learn More <span className="material-symbols-rounded mat-icon fw-300 bttn__icon"> chevron_right </span>
                     </Link>
                   </div>
                 </div>

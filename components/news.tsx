@@ -17,7 +17,7 @@ const contact_us_1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Contact Us </h3>
+              <h3 className="clr-light mb-3"> News </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -32,7 +32,7 @@ const contact_us_1 = () => {
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
                     {" "}
-                    Contact Us{" "}
+                    News{" "}
                   </Link>
                 </li>
                 <li className="d-none">
@@ -58,7 +58,7 @@ const contact_us_1 = () => {
               <div className="col-md-10 col-xl-8">
                 <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
                   {" "}
-                  Got a Question?{" "}
+                  Got a Question ?{" "}
                 </span>
                 <h2 className="mt-5 mb-5 text-center">
                   {" "}

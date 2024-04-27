@@ -75,32 +75,6 @@ const Mobilemenu = () => {
                 >
                   Home
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Home' && 'd-block'}`}>
-                  <li>
-                    <Link href="/" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 1{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/home-2" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 2{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/home-3" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 3{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/home-4" className="mobile-menu__sub-link" onClick={openMobileMenu}>
-                      {" "}
-                      Home 4{" "}
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li className={`${activeMenu =='Blog' &&'is-active'}`}>
                 <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
@@ -395,7 +369,7 @@ const Mobilemenu = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="social-menu social-menu--light">
+                <Link href="https://www.instagram.com/thoiltrading/?hl=en" target="_blank" className="social-menu social-menu--light">
                   <span className="social-menu__icon">
                     <FaInstagram />
                   </span>

@@ -278,7 +278,7 @@ const Hero = () => {
                     </li>
                     <li>
                       <Link
-                        href="contact-us-1"
+                        href="news"
                         className="primary-menu__link">
                         {" "}
                         News{" "}

@@ -38,7 +38,7 @@ const Cta = () => {
                 Lets talk{" "}
               </Link>
               <Link
-                href="about-us-1"
+                href="news"
                 className="bttn bttn--light-outline bttn-md bttn-pill fw-md flex-shrink-0 align-items-center clr-light">
                 {" "}
                 Get info{" "}

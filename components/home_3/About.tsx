@@ -113,13 +113,13 @@ const About = () => {
                 <li className="flex-grow-1">
                   <div className="counter-card-1">
                     <h4 className="clr-base text-center mb-1"><span className="counter" data-value="100">0</span>+</h4>
-                    <p className="text-center"> Employees </p>
+                    <p className="text-center"> Employees</p>
                   </div>
                 </li>
               </ul>
               <div className="group group-md group-row flex-wrap mt-10">
                 <Link
-                  href="about-us-1"
+                  href="news"
                   className="bttn bttn--base bttn-md bttn-pill fw-md flex-shrink-0">
                   {" "}
                   Learn More{" "}

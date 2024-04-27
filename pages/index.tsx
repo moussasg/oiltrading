@@ -67,6 +67,7 @@ const home_3 = () => {
       <About />
       {/* <!-- Service Section --> */}
       <Service />
+      <br></br>
       {/* <!-- Features Section  --> */}
       {/* <Features overlay={true} /> */}
       {/* <!-- Latest Projects --> */}
@@ -80,7 +81,7 @@ const home_3 = () => {
       {/* <!-- Testimonials  --> */}
       {/* <Testimonial /> */}
       {/* <!-- Blog Section --> */}
-      <Blog />
+ 
       {/* <!-- CTA --> */}
       <Cta />
       {/* <!-- Footer  --> */}

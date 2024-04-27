@@ -44,7 +44,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="#"
+                      href="https://www.instagram.com/thoiltrading/?hl=en" target="_blank"
                       className="t-link social-icon social-icon--sm social-icon--light-outline social-icon--circle">
                       <FaInstagram />
                     </Link>
@@ -226,7 +226,7 @@ const Footer = () => {
                   <div className="col-md-6">
                     <p className="clr-light text-center text-lg-start">
                       {" "}
-                      Copyright 2023 Itechex All Rights Reserved.{" "}
+                      Copyright 2023 Tafkir All Rights Reserved.{" "}
                     </p>
                   </div>
                   <div className="col-md-6">

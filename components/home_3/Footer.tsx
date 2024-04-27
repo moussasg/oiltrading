@@ -34,16 +34,16 @@ const Footer = () => {
                 <h5 className="mb-10"> Menu </h5>
                 <ul className="list list-xsm">
                   <li>
-                    <Link href="about-us-1" className="t-link clr-heading :clr-base"> Home </Link>
+                    <Link href="/" className="t-link clr-heading :clr-base"> Home </Link>
                   </li>
                   <li>
-                    <Link href="service-1" className="t-link clr-heading :clr-base"> About Us </Link>
+                    <Link href="/about-us" className="t-link clr-heading :clr-base"> About Us </Link>
                   </li>
                   <li>
-                    <Link href="service-1" className="t-link clr-heading :clr-base"> Products </Link>
+                    <Link href="/product/crude-oil" className="t-link clr-heading :clr-base"> Products </Link>
                   </li>
                   <li>
-                    <Link href="pricing-plan-1" className="t-link clr-heading :clr-base"> News </Link>
+                    <Link href="/news" className="t-link clr-heading :clr-base"> News </Link>
                   </li>
                 </ul>
               </div>
@@ -51,25 +51,25 @@ const Footer = () => {
                 <h5 className="mb-10"> Products </h5>
                 <ul className="list list-xsm">
                   <li>
-                    <Link href="leadership-page" className="t-link clr-heading :clr-base"> Crude Oil </Link>
+                    <Link href="product/crude-oil" className="t-link clr-heading :clr-base"> Crude Oil </Link>
                   </li>
                   <li>
-                    <Link href="getting-started" className="t-link clr-heading :clr-base"> Fuel Diesel </Link>
+                    <Link href="product/fuel-diesel" className="t-link clr-heading :clr-base"> Fuel Diesel </Link>
                   </li>
                   <li>
-                    <Link href="blog-details-1" className="t-link clr-heading :clr-base"> Jet Fuel  </Link>
+                    <Link href="product/jet-fuel" className="t-link clr-heading :clr-base"> Jet Fuel  </Link>
                   </li>
                   <li>
-                    <Link href="service-details-1" className="t-link clr-heading :clr-base"> Gasoline </Link>
+                    <Link href="product/gasoline" className="t-link clr-heading :clr-base"> Gasoline </Link>
                   </li>
                   <li>
-                    <Link href="service-details-1" className="t-link clr-heading :clr-base"> Fuel Oil  </Link>
+                    <Link href="product/fuel-oil" className="t-link clr-heading :clr-base"> Fuel Oil  </Link>
                   </li>
                   <li>
-                    <Link href="service-details-1" className="t-link clr-heading :clr-base"> Bitumen </Link>
+                    <Link href="product/bitumen" className="t-link clr-heading :clr-base"> Bitumen </Link>
                   </li>
                   <li>
-                    <Link href="service-details-1" className="t-link clr-heading :clr-base"> Base Oil </Link>
+                    <Link href="product/base-oil" className="t-link clr-heading :clr-base"> Base Oil </Link>
                   </li>
                 </ul>
               </div>
@@ -137,7 +137,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="t-link social-icon social-icon--xs social-icon--base-outline social-icon--circle">
+                    <Link href="https://www.instagram.com/thoiltrading/?hl=en" target="_blank" className="t-link social-icon social-icon--xs social-icon--base-outline social-icon--circle">
                       <FaInstagram />
                     </Link>
                   </li>

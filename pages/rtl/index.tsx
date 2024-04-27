@@ -1,16 +1,4 @@
 import Head from "next/head";
-import Navbar from "@/components/rtl/home_1/Navbar";
-import Hero from "@/components/rtl/home_1/Hero";
-import Service from "@/components/rtl/home_1/Service";
-import About from "@/components/rtl/home_1/About";
-import Tools from "@/components/rtl/home_1/Tools";
-import Counter from "@/components/rtl/home_1/Counter";
-import Team from "@/components/rtl/home_1/Team";
-import Cta from "@/components/rtl/home_1/Cta";
-import Latestwork from "@/components/rtl/home_1/Latestwork";
-import Customer from "@/components/rtl/home_1/Customer";
-import Blog from "@/components/rtl/home_1/Blog";
-import Footer from "@/components/rtl/home_1/Footer";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -49,18 +37,7 @@ export default function Home() {
           </span>
         </div>
 
-        <Navbar />
-        <Hero />
-        <Service />
-        <About />
-        <Tools />
-        <Counter />
-        <Team />
-        <Cta />
-        <Latestwork />
-        <Customer />
-        <Blog />
-        <Footer />
+       
       </div>
     </>
   );
