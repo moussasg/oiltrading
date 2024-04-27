@@ -195,7 +195,7 @@ const Navbar = () => {
                   <li>
                     <Link href="#" className="primary-menu__link has-sub">
                       {" "}
-                      Home{" "}
+                      HomeWW{" "}
                     </Link>
                     <ul className="list sub-menu">
                       <li>

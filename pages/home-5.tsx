@@ -10,7 +10,6 @@ import Cta from "@/components/home_1/Cta";
 import Latestwork from "@/components/home_1/Latestwork";
 import Customer from "@/components/home_1/Customer";
 import Blog from "@/components/home_1/Blog";
-import Footer from "@/components/home_1/Footer";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -58,8 +57,7 @@ export default function Home() {
         <Cta />
         <Latestwork />
         <Customer />
-        <Blog />
-        <Footer />
+        <Blog /> {/* dsd*/}
       </>
     </>
   );

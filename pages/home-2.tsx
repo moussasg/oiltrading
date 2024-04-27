@@ -3,7 +3,6 @@ import AboutCompany from "@/components/home_2/AboutCompany";
 import Brand from "@/components/home_2/Brand";
 import Consult from "@/components/home_2/Consult";
 import Features from "@/components/home_2/Features";
-import Footer from "@/components/home_2/Footer";
 import Hero from "@/components/home_2/Hero";
 import Navbar from "@/components/home_2/Navbar";
 import Pricing from "@/components/home_2/Pricing";
@@ -76,7 +75,6 @@ const home_2 = () => {
       {/*  Testimonial Section  --> */}
       <Testimonail />
       {/*  Footer --> */}
-      <Footer />
     </>
   );
 };
